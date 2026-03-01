@@ -1,5 +1,5 @@
-🚀 Production-Grade E-Commerce App (K8s + CI/CD)
-📌 Overview
+## Production-Grade E-Commerce App (K8s + CI/CD)
+# Overview
 
 This project demonstrates a production-style DevOps workflow for a containerized e-commerce backend deployed using Kubernetes and automated with GitHub Actions.
 
@@ -15,7 +15,7 @@ Kubernetes deployment manifests
 
 Minikube local cluster testing
 
-🏗 Architecture
+# Architecture
 
 GitHub → GitHub Actions → Docker Hub → Kubernetes (Minikube)
 
@@ -28,7 +28,7 @@ Docker Image Build
 Push to Docker Hub
       ↓
 Kubernetes Deployment
-🐳 Docker
+# Docker
 
 Backend image:
 
@@ -36,7 +36,7 @@ nnedigital/ecommerce-backend:latest
 
 Built automatically on every push to main.
 
-⚙️ CI Pipeline
+# CI Pipeline
 
 Workflow location:
 
@@ -71,7 +71,7 @@ db-service.yaml
 Deploy with:
 
 kubectl apply -f k8s/
-🧪 Local Testing (Minikube)
+# Local Testing (Minikube)
 
 Start cluster:
 
@@ -88,7 +88,7 @@ kubectl get pods
 Expose service:
 
 minikube service backend-service
-🔐 Security Practices
+# Security Practices
 
 .env excluded from Git
 
@@ -98,7 +98,7 @@ imagePullPolicy: Always
 
 CI-based image publishing
 
-📈 What This Project Demonstrates
+# What This Project Demonstrates
 
 CI automation
 
@@ -112,7 +112,7 @@ DevOps debugging
 
 Production-style workflow design
 
-🔮 Future Improvements
+# Future Improvements
 
 Add CD (auto-deploy after build)
 
