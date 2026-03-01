@@ -52,7 +52,7 @@ Build backend image
 
 Push image to Docker Hub
 
-☸ Kubernetes Deployment
+# Kubernetes Deployment
 
 Kubernetes manifests located in:
 
