@@ -1,5 +1,5 @@
-## Production-Grade E-Commerce App (K8s + CI/CD)
-# Overview
+# Production-Grade E-Commerce App (K8s + CI/CD)
+## Overview
 
 This project demonstrates a production-style DevOps workflow for a containerized e-commerce backend deployed using Kubernetes and automated with GitHub Actions.
 
